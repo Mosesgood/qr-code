@@ -1,0 +1,46 @@
+body{
+    background: rgba(216, 224, 237, 1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    border-radius: 20px;
+    overflow-y:hidden;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 125%;
+}
+
+p{
+    line-height: 125%;
+    font-size: 16px;
+    color: gray;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container{
+    background: rgba(216, 224, 237, 1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    border-radius: 20px;
+}
+.main-section{
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
