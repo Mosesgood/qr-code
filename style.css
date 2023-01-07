@@ -1,5 +1,6 @@
 body{
-    background: rgba(216, 224, 237, 1);
+    font-family: Outfit;
+    background:  hsl(212, 45%, 89%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,33 +10,25 @@ body{
 }
 
 h1{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: bold;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     line-height: 125%;
 }
 
 p{
     line-height: 125%;
-    font-size: 16px;
-    color: gray;
+    font-size: 1.1rem;
+    color: hsl(220,15%, 55%);
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
     border-radius: 20px;
 }
 
-.container{
-    background: rgba(216, 224, 237, 1);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    place-items: center;
-    border-radius: 20px;
-}
+
 .main-section{
     width: 300px;
     height: 500px;
