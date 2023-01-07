@@ -30,8 +30,7 @@ img {
 
 
 .main-section{
-    width: 300px;
-    height: 500px;
+    max-width: 300px;
     background: #fff;
     text-align: center;
     padding: 20px;
